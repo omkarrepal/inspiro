@@ -1,0 +1,60 @@
+h4{
+    text-align: center;
+    font-family: 'Open Sans Condensed';
+}
+h1{
+    text-align: center;
+    font-family: 'Baloo Bhaijaan';
+}
+input#message {
+    background:#fff;
+    border:none;
+    outline:none;
+    box-shadow:none;
+    font-size:1.6em;
+    font-weight:300;
+    margin-bottom: 3em;
+    padding:1.2em .7em;
+}
+
+#details-container {
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    width:100%;
+    
+}
+
+#details-container p {
+    background:#fff;
+    padding:1.4em;
+    color:#696969;
+    margin: 12px;
+    width:auto;
+    min-width:200px;
+    box-shadow: 10px 10px 5px #888888;
+}
+
+img {
+    display:block;
+    margin-bottom:12px;
+}
+.searchbx{    
+    background:#fff;
+    background-image: url('../assets/images/search_ico.svg');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 83px;
+    border:none;
+    outline:none;
+    box-shadow:none;
+    font-size:1.6em;
+    font-weight:300;
+    display: block;
+    float: right;
+    padding:1.2em .7em;
+    width:858px;
+    margin-left:10px;
+            
+            
+        }
