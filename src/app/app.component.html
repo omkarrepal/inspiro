@@ -13,11 +13,8 @@
   
 
   <div id="details-container">
-      <p *ngFor="let item of items | async | filter:search.value">{{item.message}}
-        <br>
-        
-        <br>
-        <i style="font-size:14px">{{item.refer}}</i>
+      <p *ngFor="let item of items | async | filter:search.value">
+        {{item.message}}
 
       </p>
       

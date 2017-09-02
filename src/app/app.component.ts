@@ -33,7 +33,7 @@ logout() {
     this.afAuth.auth.signOut();
 }
 
-Send(desc: string,ref:string) {
+Send(desc: string) {
   
   
   if(this.msgVal!='')
