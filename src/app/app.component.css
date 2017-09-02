@@ -7,12 +7,14 @@ h1{
     font-family: 'Baloo Bhaijaan';
 }
 input#message {
-    background:#fff;
-    border:none;
+    background:#4B4F53;
+    color: #ffffff;
+    border:solid #696969;
     outline:none;
     box-shadow:none;
     font-size:1.6em;
     font-weight:300;
+    margin-top: 3em;
     margin-bottom: 3em;
     padding:1.2em .7em;
 }
@@ -44,7 +46,7 @@ img {
     background-image: url('../assets/images/search_ico.svg');
     background-repeat: no-repeat;
     background-position: right;
-    background-size: 83px;
+    background-size: 75px;
     border:none;
     outline:none;
     box-shadow:none;
